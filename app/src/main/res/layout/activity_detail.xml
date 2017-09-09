@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:text="Phone name" />
+
+    <ImageView
+        android:id="@+id/phoneImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/android" />
+
+    <TextView
+        android:id="@+id/phoneTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/phoneImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae gravida velit. Nam laoreet arcu velit, sit amet molestie risus dictum non. Maecenas quis ligula eu ligula vestibulum lacinia quis at augue. In eget diam tincidunt, hendrerit odio ac, euismod mi. Vivamus accumsan, odio nec suscipit dignissim, purus turpis auctor elit, tristique aliquet diam ante at risus. Nulla rutrum leo ac ullamcorper lacinia. Pellentesque et sapien eu metus vestibulum fermentum sit amet sit amet arcu. Quisque accumsan ut libero sit amet commodo. Duis sed sapien diam. Praesent et vestibulum lectus. Sed tempus sed dolor id pharetra. Aenean id orci convallis, sollicitudin urna id, porttitor risus.
+
+Donec lacus quam, tempus quis rutrum et, vestibulum nec lectus. Donec commodo ante ut dui commodo, eu gravida massa hendrerit. Cras vehicula mattis viverra. Nulla in placerat neque. Morbi feugiat convallis dignissim. Donec lacus dolor, faucibus sit amet arcu blandit, iaculis dictum ante. In in molestie ex."
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneTextView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:onClick="backButtonPressed"
+        android:text="@string/back"
+        android:textAllCaps="false" />
+</RelativeLayout>
